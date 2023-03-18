@@ -88,7 +88,7 @@ header {
     height: auto;
     width: auto;
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     margin-left: 200px;
 }
 
@@ -96,6 +96,7 @@ header {
     height: 9rem;
     text-align: center;
     padding: 5rem 0 8rem 0;
+    margin-right: 80px;
 }
 
 .events-title h2 {
@@ -117,6 +118,7 @@ header {
     text-align: center;
     padding-top: 2rem;
     color: gray;
+    margin-left: 3rem;
 
 }
 
@@ -127,12 +129,75 @@ header {
     margin-bottom: 2rem;
 }
 
-.card p{
+.hightLight {
+    background-color: lightblue;
+    color: rgb(113, 113, 222);
     font-size: small;
-    margin-bottom: 1rem;
+    padding: .1rem;
+    width: fit-content;   /*fit-content vale para que el color se ajuste al elemento y no sea largo hasta el final*/
+    display: inline;
+    border-radius: 15% /10% ;
 
 }
 
+
+
+.card p{
+    font-size: .8rem;
+    margin: .8rem;
+
+}
 .card .socialIcons{
     font-size: small;
+}
+
+/* ********** Comienzo charla coloquio ********** */
+
+.charla-coloquio {
+    background-color: #4c2882;
+    color: white;
+    height: 12rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-charla {
+    width: 300px;
+    padding: 60px 0 0 100px;
+    margin-left: 10rem;
+}
+
+.buttons-charla {
+    height: 4rem;
+    width: 300px;
+    margin: 60px 0 0 30px;
+    display: flex;
+    gap: 2rem;
+    padding: auto;
+    font-size: small;
+}
+
+.left-button {
+    border: 1px solid white;
+    background-color: white;
+    color: #4c2882;
+    width: 6rem;
+    height: 30px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+
+.right-button {
+    border: 1px solid white;
+    width: 5rem;
+    height: 30px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    padding-bottom: 25px;
+    text-align: center;
+
+
 }
